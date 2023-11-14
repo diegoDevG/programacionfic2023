@@ -87,7 +87,7 @@ export default async function EventPage({ params }: any) {
                   className="btn-main inline-block w-full sm:w-auto text-center"
                   href={`/events/${event.slug}#tickets`}
                 >
-                  Buy Tickets
+                  Mas info del evento
                 </a>
               )}
               {event.registration?.status ===
@@ -96,7 +96,7 @@ export default async function EventPage({ params }: any) {
                   className="btn-main inline-block w-full sm:w-auto text-center"
                   href={event.registration.external!.registration}
                 >
-                  Buy Tickets
+                  Mas info del evento
                 </a>
               )}
               {[
@@ -116,12 +116,12 @@ export default async function EventPage({ params }: any) {
             </div>
           </div>
           <div className="max-w-3xl mx-auto text-[14px] sm:text-base px-3 sm:px-0">
-            <h2 className="mt-7">TIME & LOCATION</h2>
+            <h2 className="mt-7">Hora y ubicación</h2>
             <p className="font-helvetica">{event.scheduling?.formatted}</p>
             <p className="font-helvetica">{event.location?.address}</p>
             {event.about !== '<p></p>' ? (
               <>
-                <h2 className="mt-7">ABOUT THE EVENT</h2>
+                <h2 className="mt-7">Acerca del evento</h2>
                 <div
                   className="font-helvetica"
                   dangerouslySetInnerHTML={{ __html: event.about ?? '' }}
@@ -152,7 +152,7 @@ export default async function EventPage({ params }: any) {
               </div>
             )}
             <div className="my-4">
-              <h2 className="mt-7">Share this event</h2>
+              <h2 className="mt-7">Comparte este evento</h2>
               <div className="my-4 flex gap-2">
                 <a
                   className="border-2 inline-flex items-center mb-1 mr-1 transition p-1 rounded-full text-white border-neutral-600 bg-neutral-600 hover:bg-neutral-700 hover:border-neutral-700"
@@ -211,7 +211,7 @@ export default async function EventPage({ params }: any) {
         </div>
       ) : (
         <div className="text-3xl w-full text-center p-9 box-border">
-          The event was not found
+          Evento no encontrado
         </div>
       )}
     </div>

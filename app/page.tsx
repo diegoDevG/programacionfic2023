@@ -26,7 +26,7 @@ export default async function Home() {
           }))
       )
     );
-  } catch (e) {}
+  } catch (e) { }
 
   let events: wixEvents.Event[] = [];
   try {
@@ -42,7 +42,7 @@ export default async function Home() {
         },
       })
     ).events!;
-  } catch (e) {}
+  } catch (e) { }
   return (
     <HomeScreen events={events} productsForCategories={productsForCategories} />
   );

@@ -11,7 +11,7 @@ const navbarMainItems = [
 ];
 
 const navbarSecondrayItems = [
-  { ref: '/terms', label: 'TERMS & CONDITIONS' },
+  { ref: '/terms', label: 'Acerca de' },
   { ref: '/shipping', label: 'SHIPPING & RETURNS' },
   { ref: '/faq', label: 'FAQ' },
 ];
@@ -80,7 +80,7 @@ export function NavBar() {
             />
           </div>
           <h2 className="text-center text-2xl sm:text-[120px] z-20 sm:mt-[-150px]">
-            TALI$A KIDD
+            FIC Boyacá
           </h2>
         </div>
         <ul className="flex flex-col items-center gap-4 justify-end mt-4 sm:mt-[140px]">
