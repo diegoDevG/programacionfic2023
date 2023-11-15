@@ -119,8 +119,7 @@ export function HomeScreen({
           >
             here
           </a>{' '}
-          to go to the business dashboard to add events. Once added, they will
-          appear here.
+          
         </div>
       )}
       {productsForCategories.length ? (
