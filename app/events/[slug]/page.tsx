@@ -98,7 +98,7 @@ export default async function EventPage({ params }: any) {
                   className="btn-main inline-block w-full sm:w-auto text-center"
                   href={event.registration.external!.registration}
                 >
-                  Mas info del evento
+                  Registrarse
                 </a>
               )}
               {[
@@ -141,7 +141,7 @@ export default async function EventPage({ params }: any) {
                 className="btn-main my-10 inline-block"
                 href={event.registration?.external.registration}
               >
-                Buy Tickets
+                Registrarse
               </a>
             )}
             {[

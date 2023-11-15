@@ -5,6 +5,7 @@ import { ClientProvider } from '@app/components/Provider/ClientProvider';
 import { SidebarUI } from '@app/components/Sidebar/SidebarUI';
 import { NotPremium } from '@app/components/NotPremium/NotPremium';
 import { LoginModal } from '@app/components/LoginModal/LoginModal';
+import { Analytics } from '@vercel/analytics/react';
 
 /**
  * Using force dynamic so changes in business assets (e.g. services) are immediately reflected.
@@ -26,6 +27,7 @@ export default function RootLayout({
           content="Programacion del Festival Internacional de la Cultura de Boyacá - 2023"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="robots" content="index, follow" />
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body className="text-black bg-site max-w-7xl m-auto">
@@ -33,6 +35,7 @@ export default function RootLayout({
           <>
             <ClientProvider>
               <Header />
+              <Analytics />
               <main className="bg-site min-h-[600px]">{children}</main>
               <SidebarUI />
               <NotPremium />
