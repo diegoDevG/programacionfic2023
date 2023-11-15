@@ -119,7 +119,6 @@ export function HomeScreen({
           >
             here
           </a>{' '}
-          
         </div>
       )}
       {productsForCategories.length ? (
