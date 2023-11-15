@@ -18,6 +18,10 @@ module.exports = {
       fontSize: {
         12: '12px',
       },
+      backgroundImage: {
+        'hero-pattern': "url('/images/background.jpg')",
+        'footer-texture': "url('/img/footer-texture.png')",
+      },
       keyframes: {
         fade: {
           '0%': { opacity: 0 },

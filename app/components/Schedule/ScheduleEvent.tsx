@@ -18,7 +18,7 @@ export function ScheduleEvent({
           {event.title} | {event.scheduling?.formatted},{' '}
           {event.location!.address}
         </p>
-        <h1 className="text-2xl sm:text-5xl mb-4 sm:mb-12 sm:mt-4">Schedule</h1>
+        <h1 className="text-2xl sm:text-5xl mb-4 sm:mb-12 sm:mt-4">Agenda</h1>
       </div>
       <div className="flex flex-col-reverse sm:flex-col">
         <a

@@ -35,6 +35,7 @@ export const Schedule = ({
               item.timeSlot!.timeZoneId!
             )}`}</span>
             <span className="text-gray-400 text-sm">
+              Inicia en:
               {formatDuration({
                 diffHrs: item.duration.diffHrs,
                 diffMins: item.duration.diffMins,

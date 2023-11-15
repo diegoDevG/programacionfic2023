@@ -6,14 +6,14 @@ import { usePathname } from 'next/navigation';
 import Image from 'next/image';
 
 const navbarMainItems = [
-  { ref: '/', label: 'HOME' },
-  { ref: '/shop', label: 'MERCH' },
+  { ref: '/', label: 'INICIO' },
+  // { ref: '/shop', label: 'MERCH' },
 ];
 
 const navbarSecondrayItems = [
   { ref: '/terms', label: 'Acerca de' },
-  { ref: '/shipping', label: 'SHIPPING & RETURNS' },
-  { ref: '/faq', label: 'FAQ' },
+  // { ref: '/shipping', label: 'SHIPPING & RETURNS' },
+  // { ref: '/faq', label: 'FAQ' },
 ];
 
 const StyledNavLink = ({

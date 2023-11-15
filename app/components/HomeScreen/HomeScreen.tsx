@@ -18,17 +18,18 @@ export function HomeScreen({
         <div className="flex sm:flex-row flex-col bg-zinc-900">
           <div className="basis-1/2 text-center sm:text-left relative">
             <div
-              className="px-10 sm:px-14 py-6 bg-site"
+              className="px-10 sm:px-14 py-6 bg-site bg-hero-pattern"
               data-testid={testIds.HOME_PAGE.HEADER}
             >
-              <h1 className="text-5xl sm:text-[120px] leading-none animate-fade-in">
+              <h1 className="text-5xl sm:text-[120px] leading-none animate-fade-in text-white">
                 FIC
                 <br /> BOYACÁ
                 <br /> 50 AÑOS
               </h1>
-              <h3 className="text-base sm:text-2xl py-6">
-                FESTIVAL INTERNACIONAL DEL LA CULTURA{' '}
-                <span className="text-purple-500">50 AÑOS</span>
+              <h3 className="text-base sm:text-2xl py-6 text-white">
+                Programacion del Festival Internacional de la Cultura Boyacá
+                2023
+                <span className="text-purple-500"> 50 AÑOS</span>
               </h3>
               <div className="flex text-gray-700 gap-4 justify-center sm:justify-start">
                 <svg
@@ -87,7 +88,7 @@ export function HomeScreen({
           </div>
           <div className="basis-1/2">
             <Image
-              src="/images/hero.jpg"
+              src="/images/festival.jpeg"
               alt="TALI$A"
               className="w-full px-10 sm:px-0"
               width={1000}

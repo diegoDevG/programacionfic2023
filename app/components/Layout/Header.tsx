@@ -13,11 +13,11 @@ const Header = () => (
         <h2 className="flex-1">
           <a href="/">FIC Boyacá</a>
         </h2>
-        <div>
+        <div className="hidden">
           <Login />
         </div>
 
-        <div>
+        <div className="hidden">
           <CartBag />
         </div>
         <div>
