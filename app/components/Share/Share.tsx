@@ -1,8 +1,20 @@
 'use client';
 import Image from 'next/image';
+import { useEffect, useState } from 'react';
 
 const Share = () => {
-  const currentUrl = typeof window !== 'undefined' ? window.location.href : '';
+  const [currentUrl, setCurrentUrl] = useState('');
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setCurrentUrl(window.location.href);
+      console.log(
+        '🚀 ~ file: Share.tsx:9 ~ Share ~ window.location.href:',
+        window.location.href
+      );
+    }
+  }, []);
+
   if (currentUrl) {
     return (
       <>

@@ -28,7 +28,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </head>
-      <body className="text-black bg-site">
+      <body className="text-black bg-site max-w-7xl m-auto">
         {process.env.NEXT_PUBLIC_WIX_CLIENT_ID ? (
           <>
             <ClientProvider>
