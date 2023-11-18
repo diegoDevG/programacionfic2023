@@ -444,7 +444,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@netlify/functions@npm:^2.1.0":
+"@netlify/functions@npm:^2.4.0":
   version: 2.4.0
   resolution: "@netlify/functions@npm:2.4.0"
   dependencies:
@@ -454,11 +454,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@netlify/ipx@npm:^1.4.5":
-  version: 1.4.5
-  resolution: "@netlify/ipx@npm:1.4.5"
+"@netlify/ipx@npm:^1.4.6":
+  version: 1.4.6
+  resolution: "@netlify/ipx@npm:1.4.6"
   dependencies:
-    "@netlify/functions": ^2.1.0
+    "@netlify/functions": ^2.4.0
     etag: ^1.8.1
     fs-extra: ^11.0.0
     ipx: ^1.3.1
@@ -467,8 +467,8 @@ __metadata:
     murmurhash: ^2.0.0
     node-fetch: ^2.0.0
     ufo: ^1.0.0
-    unstorage: ^1.0.0
-  checksum: 36771d3ec56cdd429add6092e3d873f94e220cb17cddafea787b6b2295d22cd9b89625dcf87e475af4120c33c412b297081590ab411cd19e09c2666b3b2048aa
+    unstorage: 1.9.0
+  checksum: f1c5e706f2cf97f49c7e0c6c99c872b084423b77225c2676150cacee68cc8e15b39b44d041724739f3ef1c34353123b5e2220938fd6adc8bbaa1557d4c790b1f
   languageName: node
   linkType: hard
 
@@ -480,13 +480,13 @@ __metadata:
   linkType: hard
 
 "@netlify/plugin-nextjs@npm:^4.36.0":
-  version: 4.41.1
-  resolution: "@netlify/plugin-nextjs@npm:4.41.1"
+  version: 4.41.2
+  resolution: "@netlify/plugin-nextjs@npm:4.41.2"
   dependencies:
     "@netlify/blobs": ^2.2.0
     "@netlify/esbuild": 0.14.39
     "@netlify/functions": ^1.6.0
-    "@netlify/ipx": ^1.4.5
+    "@netlify/ipx": ^1.4.6
     "@vercel/node-bridge": ^2.1.0
     chalk: ^4.1.2
     chokidar: ^3.5.3
@@ -507,7 +507,7 @@ __metadata:
     semver: ^7.3.5
     slash: ^3.0.0
     tiny-glob: ^0.2.9
-  checksum: 2afca0c52afe2093588a6ff6d9426a2e1f377346ba44a9ebdfcd2ec8c77f21c3d8251bd36b98c2acf1a3bed4f6879c530d4df2d0aee4e2409348d1c3840bb58a
+  checksum: 43bf5313cd6a0cdd134abfc49b54faa5379c13ea7afdba4b553bb148d3b2ed26da8a8da61767bff54c48f8adc25dcb547b95d1b49149c01eae55794d8ce19870
   languageName: node
   linkType: hard
 
@@ -2015,7 +2015,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"destr@npm:^2.0.1, destr@npm:^2.0.2":
+"destr@npm:^2.0.1":
   version: 2.0.2
   resolution: "destr@npm:2.0.2"
   checksum: cb63dd477d1c323f95650ce7784f1497466d68150ac0fddd6c99652be45c9dcb997d53fd5eb6c6fda6c0b2a5e5b4fc7fa3c3e18dace3d810ba4cf45d8b55bdd6
@@ -3081,7 +3081,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"h3@npm:^1.8.1, h3@npm:^1.8.2":
+"h3@npm:^1.7.1, h3@npm:^1.8.1":
   version: 1.8.2
   resolution: "h3@npm:1.8.2"
   dependencies:
@@ -3842,7 +3842,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"listhen@npm:^1.5.5":
+"listhen@npm:^1.2.2, listhen@npm:^1.5.5":
   version: 1.5.5
   resolution: "listhen@npm:1.5.5"
   dependencies:
@@ -3941,7 +3941,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lru-cache@npm:^10.0.1, lru-cache@npm:^10.0.2, lru-cache@npm:^9.1.1 || ^10.0.0":
+"lru-cache@npm:^10.0.0, lru-cache@npm:^10.0.1, lru-cache@npm:^9.1.1 || ^10.0.0":
   version: 10.0.2
   resolution: "lru-cache@npm:10.0.2"
   dependencies:
@@ -4358,7 +4358,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-fetch-native@npm:^1.4.0, node-fetch-native@npm:^1.4.1":
+"node-fetch-native@npm:^1.2.0, node-fetch-native@npm:^1.4.0":
   version: 1.4.1
   resolution: "node-fetch-native@npm:1.4.1"
   checksum: 339001ad3235a09b195198df8be71b591eec4064a2fcfb7f54b9f0716f6ccb3bda5828e1746f809a6d2edb062a0330e5798f408396c33b3b88339c73d6e9575d
@@ -4549,7 +4549,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ofetch@npm:^1.3.3":
+"ofetch@npm:^1.1.1":
   version: 1.3.3
   resolution: "ofetch@npm:1.3.3"
   dependencies:
@@ -5996,6 +5996,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ufo@npm:^1.2.0":
+  version: 1.3.2
+  resolution: "ufo@npm:1.3.2"
+  checksum: f1180bb715ff4dd46152fd4dec41c731e84d7b9eaf1432548a0210b2f7e0cd29de125ac88e582c6a079d8ae5bc9ab04ef2bdbafe125086480b10c1006b81bfce
+  languageName: node
+  linkType: hard
+
 "unbox-primitive@npm:^1.0.2":
   version: 1.0.2
   resolution: "unbox-primitive@npm:1.0.2"
@@ -6053,33 +6060,32 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unstorage@npm:^1.0.0":
-  version: 1.10.0
-  resolution: "unstorage@npm:1.10.0"
+"unstorage@npm:1.9.0":
+  version: 1.9.0
+  resolution: "unstorage@npm:1.9.0"
   dependencies:
     anymatch: ^3.1.3
     chokidar: ^3.5.3
-    destr: ^2.0.2
-    h3: ^1.8.2
+    destr: ^2.0.1
+    h3: ^1.7.1
     ioredis: ^5.3.2
-    listhen: ^1.5.5
-    lru-cache: ^10.0.2
+    listhen: ^1.2.2
+    lru-cache: ^10.0.0
     mri: ^1.2.0
-    node-fetch-native: ^1.4.1
-    ofetch: ^1.3.3
-    ufo: ^1.3.1
+    node-fetch-native: ^1.2.0
+    ofetch: ^1.1.1
+    ufo: ^1.2.0
   peerDependencies:
     "@azure/app-configuration": ^1.4.1
-    "@azure/cosmos": ^4.0.0
+    "@azure/cosmos": ^3.17.3
     "@azure/data-tables": ^13.2.2
-    "@azure/identity": ^3.3.2
+    "@azure/identity": ^3.2.3
     "@azure/keyvault-secrets": ^4.7.0
-    "@azure/storage-blob": ^12.16.0
-    "@capacitor/preferences": ^5.0.6
-    "@netlify/blobs": ^6.2.0
-    "@planetscale/database": ^1.11.0
-    "@upstash/redis": ^1.23.4
-    "@vercel/kv": ^0.2.3
+    "@azure/storage-blob": ^12.14.0
+    "@capacitor/preferences": ^5.0.0
+    "@planetscale/database": ^1.8.0
+    "@upstash/redis": ^1.22.0
+    "@vercel/kv": ^0.2.2
     idb-keyval: ^6.2.1
   peerDependenciesMeta:
     "@azure/app-configuration":
@@ -6096,8 +6102,6 @@ __metadata:
       optional: true
     "@capacitor/preferences":
       optional: true
-    "@netlify/blobs":
-      optional: true
     "@planetscale/database":
       optional: true
     "@upstash/redis":
@@ -6106,7 +6110,7 @@ __metadata:
       optional: true
     idb-keyval:
       optional: true
-  checksum: 04d2b7aa5ab2086b9be35133b68490deedc7da15792597d4e9b05743e08ec58d9eb6d08b0590d45a39faed85c4ee8f144e8613bc12f1bfa0660dd5185f4fae50
+  checksum: a5ce2d2237951931159b10bcc92ee68fddcd7dda73e6b6f55188f987a3fe79be97261783bd162db2394613dfd813ff0c747aecb6fe33ac75b61c1d64e9a1d7a3
   languageName: node
   linkType: hard
 
